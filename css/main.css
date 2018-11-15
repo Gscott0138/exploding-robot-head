@@ -25,10 +25,15 @@ body {
 
 .robot-body {
   position: relative;
+  bottom: 0;
   width: 320px;
 }
 
 .robot-brain {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
   width: 46px;
 }
 
