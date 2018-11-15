@@ -18,10 +18,13 @@ body {
 }
 
 .robot {
+  margin-left: auto;
+  margin-right: auto;
   width: 320px;
 }
 
 .robot-body {
+  position: relative;
   width: 320px;
 }
 
@@ -31,5 +34,6 @@ body {
 
 .robot-head-right,
 .robot-head-left {
+  position: absolute;
   width: 125px;
 }
